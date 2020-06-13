@@ -12,3 +12,8 @@ steps:
   image: golang
   commands:
   - go build
+
+- name: ls
+  image: alpine
+  commands:
+  - ls -al
